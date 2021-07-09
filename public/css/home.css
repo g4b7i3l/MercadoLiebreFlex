@@ -1,49 +1,3 @@
-/* header */
-header{
-    background-color: #EAC926;
-}
-.liebre ,.barra{
-    display: inline-block;
-    width: 40%;
-}
-#burguer{
-    display: flex;
-    margin-left:48%;;
-    background-color: blue;
-    border: none;
-    padding: 7px;
-    color: white;
-    border-radius: 5px;
-    
-}
-input{
-    width: 60%;
-}
-.p1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.fa-sign-in-alt {
-    color: black;
-}
-.fa-address-card{
-    color: black;
-}
-.fa-shopping-basket{
-    color: black;
-}
-.liebre {
-    padding-top: 40px;
-    margin-left: 30px;
-    }
-
-.primera-lista ,.segunda-lista{
-    display: none;
-}
-/* main */
-
 .home .camion{
     display: block;
     font-size: 16px;
@@ -89,57 +43,8 @@ input{
 }
 
 
-/* footer */
-footer{
-    text-align: center;
-    background-color: #e4e1e1;
-}
-footer p, h4, h6{
-    color: #666;
-}
-footer .futer{
-    margin-bottom: 55px;
-}
-footer .fa-credit-card{
-    margin-top: 55px;
-    margin-bottom: 10px;
-color: #1259c3;
-}
-footer .fa-gift{
-    margin-bottom: 10px;
-color: #1259c3;
-}
-footer .fa-user-shield{
-    margin-bottom: 10px;
-color: #1259c3;
-}
-
-
 /* Media */
 @media (min-width:361px){
-    .liebre ,.barra ,.p1{
-    display: inline-block;
-width: 30%;
-    }
-    .primera-lista ,.segunda-lista  {
-        display: flex;
-justify-content: flex-end;
-    }
-    .primera-lista{
-width: 30%;
-    }
-    .segunda-lista{
-width: 88%;
-
-    }
-    .listas{
-        display: flex;
-    }
-
-    #burguer{
-        display: none;
-    }
-
     .cajas{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     display: inline-block;
@@ -147,11 +52,6 @@ width: 88%;
     margin: 10px 20px;
     }
     
-}
-.home header li{
-    display: inline-block;
-
-    padding: 10px;
 
 }
 

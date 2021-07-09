@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.primera-barra ,.busqueda1{
+    border: white 4px solid;
+}
+
 a{
     text-decoration: none;
     color: black;
